@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Sofia's Resume</title>
+    </head>
+    <body>
+      <div class="container light">
+        <button id="button" onclick="changeTheme()">
+          <img class="icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8Zz4KICA8cGF0aCBkPSJtNTA4LjczIDQwMy4xYzAgNi44NDM4LTAuNDYwOTQgMTMuNzM0LTEuMzg2NyAyMC41MzUgMC4yMzA0Ny0xLjYxNzIgMC40NjA5NC0zLjI4NTIgMC42NDg0NC00LjkwMjMtMS44MDQ3IDEzLjE4LTUuMzYzMyAyNi4wODItMTAuNSAzOC4zNCAwLjYwMTU2LTEuNDgwNSAxLjI1LTIuOTYwOSAxLjg1MTYtNC40NDE0LTUuMDg1OSAxMS45NzctMTEuNjk5IDIzLjIxNS0xOS42MDkgMzMuNTMxIDAuOTcyNjYtMS4yNSAxLjk0MTQtMi40OTYxIDIuOTE0MS0zLjc0NjEtNy45MTAyIDEwLjIyMy0xNy4xMTMgMTkuMzc5LTI3LjI4NSAyNy4yODUgMS4yNS0wLjk3MjY2IDIuNDk2MS0xLjk0MTQgMy43NDYxLTIuOTE0MS0xMC4zMTIgNy45NTMxLTIxLjU1MSAxNC41MjMtMzMuNTMxIDE5LjYwOSAxLjQ4MDUtMC42MDE1NiAyLjk2MDktMS4yNSA0LjQ0MTQtMS44NTE2LTEyLjI1NCA1LjE3OTctMjUuMTYgOC42OTUzLTM4LjM0IDEwLjUgMS42MTcyLTAuMjMwNDcgMy4yODUyLTAuNDYwOTQgNC45MDIzLTAuNjQ4NDQtMTMuNTk4IDEuODA0Ny0yNy40MjYgMS44MDQ3LTQxLjAyMyAwIDEuNjE3MiAwLjIzMDQ3IDMuMjg1MiAwLjQ2MDk0IDQuOTAyMyAwLjY0ODQ0LTEzLjE4LTEuODA0Ny0yNi4wODItNS4zNjMzLTM4LjM0LTEwLjUgMS40ODA1IDAuNjAxNTYgMi45NjA5IDEuMjUgNC40NDE0IDEuODUxNi0xMS45NzctNS4wODU5LTIzLjIxNS0xMS42OTktMzMuNTMxLTE5LjYwOSAxLjI1IDAuOTcyNjYgMi40OTYxIDEuOTQxNCAzLjc0NjEgMi45MTQxLTEwLjIyMy03LjkxMDItMTkuMzc5LTE3LjExMy0yNy4yODUtMjcuMjg1IDAuOTcyNjYgMS4yNSAxLjk0MTQgMi40OTYxIDIuOTE0MSAzLjc0NjEtNy45NTMxLTEwLjMxMi0xNC41MjMtMjEuNTUxLTE5LjYwOS0zMy41MzEgMC42MDE1NiAxLjQ4MDUgMS4yNSAyLjk2MDkgMS44NTE2IDQuNDQxNC01LjE3OTctMTIuMjU0LTguNjk1My0yNS4xNi0xMC41LTM4LjM0IDAuMjMwNDcgMS42MTcyIDAuNDYwOTQgMy4yODUyIDAuNjQ4NDQgNC45MDIzLTEuODA0Ny0xMy41NTEtMS44MDQ3LTI3LjIzOC0wLjA0Njg3NS00MC43ODktMC4yMzA0NyAxLjYxNzItMC40NjA5NCAzLjI4NTItMC42NDg0NCA0LjkwMjMgMS44MDQ3LTEzLjI3MyA1LjM2MzMtMjYuMjcgMTAuNTQzLTM4LjYxNy0wLjYwMTU2IDEuNDgwNS0xLjI1IDIuOTYwOS0xLjg1MTYgNC40NDE0IDUuMTMyOC0xMi4wNyAxMS43OTMtMjMuNDAyIDE5Ljc5My0zMy43NjItMC45NzI2NiAxLjI1LTEuOTQxNCAyLjQ5NjEtMi45MTQxIDMuNzQ2MSA3LjA3NDItOS4wNjY0IDE1LjA3OC0xNy4zNDQgMjMuMjE1LTI1LjQzOCA5LjcxMDktOS43MTA5IDE5LjY1Ni0xOS4xMDIgMjkuNzM4LTI4LjM5NSAxOC4wMzUtMTYuNjQ4IDM2LjM5OC0zMi45MyA1NC45NDEtNDkuMDIzIDMuODg2Ny0zLjM3NSA3Ljc2OTUtNi43MDcgMTEuNjk5LTEwLjAzNWgtMjYuMTc2YzExLjAwOCA5LjM4NjcgMjEuOTIyIDE4LjkxNCAzMi43NDIgMjguNDg4IDIwLjQ0MSAxOC4wODIgNDAuNjk5IDM2LjM5OCA2MC4xMjEgNTUuNTQzIDkuMjk2OSA5LjIwMzEgMTguNTkgMTguNTQ3IDI2LjY0MSAyOC44NTktMC45NzI2Ni0xLjI1LTEuOTQxNC0yLjQ5NjEtMi45MTQxLTMuNzQ2MSA4IDEwLjM1OSAxNC42NiAyMS42OTEgMTkuNzkzIDMzLjc2Mi0wLjYwMTU2LTEuNDgwNS0xLjI1LTIuOTYwOS0xLjg1MTYtNC40NDE0IDUuMTc5NyAxMi4zNDggOC43NDIyIDI1LjM0NCAxMC41NDMgMzguNjE3LTAuMjMwNDctMS42MTcyLTAuNDYwOTQtMy4yODUyLTAuNjQ4NDQtNC45MDIzIDAuNzUgNi43MDMxIDEuMjE0OCAxMy40NTcgMS4yMTQ4IDIwLjI1NCAwLjA0Njg3NSA5LjY2NDEgOC41MDc4IDE4Ljk2MSAxOC41IDE4LjUgOS45ODgzLTAuNDYwOTQgMTguNTQ3LTguMTQwNiAxOC41LTE4LjUtMC4wOTM3NS0yOC41ODItNy4zMDg2LTU2Ljg4Ny0yMS4wNDMtODEuOTUzLTkuNjIxMS0xNy41MjctMjIuODAxLTMyLjYwNS0zNi44MTItNDYuNzU4LTEyLjk0OS0xMy4xMzMtMjYuNDUzLTI1LjcxNS00MC4wOTgtMzguMTU2LTEyLjcxOS0xMS42MDktMjUuNTc0LTIzLjA3OC0zOC41Ny0zNC40MS02LjU2NjQtNS43MzQ0LTEzLjE4LTExLjUxNi0xOS44NC0xNy4xNTYtMC4wOTM3NS0wLjA5Mzc1LTAuMTgzNTktMC4xNDA2Mi0wLjI3NzM0LTAuMjMwNDctMy42NTIzLTMuMDk3Ny04LjA5MzgtNS42NDA2LTEzLjA5LTUuNDEwMi01LjEzMjggMC4yMzA0Ny05LjE1NjIgMi4wODItMTMuMDkgNS40MTAyLTguMTQwNiA2LjkzNzUtMTYuMTg4IDEzLjk2OS0yNC4yMzQgMjAuOTk2LTE2Ljk3MyAxNC44OTEtMzMuNzYyIDI5LjkyMi01MC4yMjcgNDUuMzcxLTE0LjgwMSAxMy44NzUtMjkuOTY5IDI3Ljg4Ny00Mi43ODEgNDMuNjYtNS44MjgxIDcuMTIxMS0xMS4yODUgMTQuNTY2LTE1Ljk1NyAyMi40NzdzLTguNDY0OCAxNi4yMzQtMTEuODg3IDI0Ljc0MmMtNi41NjY0IDE2LjI4MS0xMC4wMzUgMzMuNjY4LTExLjIzOCA1MS4xNTItMS45ODgzIDMwLjEwOSA0LjY3MTkgNjAuNDQ1IDE4LjE3NiA4Ny4zMTYgMTIuODEyIDI1LjQ4NCAzMi40NjUgNDcuMDgyIDU1LjgyIDYzLjI2NiAyNC4wMDQgMTYuNjQ4IDUyLjI2MiAyNi4wMzkgODEuMjExIDI4LjcxOSAyOS42NDUgMi43NzM0IDU5LjM4My0zLjE0NDUgODYuMzQ0LTE1LjQ5MiAyNi4wMzktMTEuODg3IDQ3Ljk2MS0zMC45ODQgNjUuMDIzLTUzLjc4NSA4LjY0ODQtMTEuNTYyIDE1LjE2OC0yNC4xNDEgMjAuNjI1LTM3LjQ2MSA1LjU5NzctMTMuNjg4IDguNzg5MS0yNy44NCAxMC42MzctNDIuNDU3IDAuODMyMDMtNi42MTMzIDEuMjk2OS0xMy4yMjcgMS4yOTY5LTE5Ljg4NyAwLTkuNjY0MS04LjUwNzgtMTguOTYxLTE4LjUtMTguNS0xMC4wMjcgMC41MTE3Mi0xOC40ODggOC4xODc1LTE4LjQ4OCAxOC41NDd6Ii8+CiAgPHBhdGggZD0ibTUyNy4yMyA0MDMuMWMwIDgzLjUyMy02Ny43MDcgMTUxLjIzLTE1MS4yMyAxNTEuMjNsLTAuMDAzOTA2LTM1Ni43NnM4OS4wMjcgNzUuNzU0IDExNi43OCAxMDkuNDdjMjEuNTA4IDI2LjA4NiAzNC40NTcgNTkuNTcgMzQuNDU3IDk2LjA1OXoiLz4KIDwvZz4KPC9zdmc+Cg=="/>
+        </button>
+        <img src="https://github.com/asofiasbo/cv/raw/master/CV-light.svg" class="cv" alt="Sofia Oliveira CV" /> 
+        <img src="https://github.com/asofiasbo/cv/raw/master/CV-dark.svg" class="load" alt="Sofia Oliveira CV" /> 
+      </div>
+    </body>
+</html>
+
+<style>
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .cv {
+    width: 60%;
+  }
+
+  .load {
+    display: none;
+  }
+
+  @media only screen and (max-device-width: 768px) {
+    .container {
+      height: 100%;
+      align-items: flex-start;
+    }
+    .cv {
+      width: 100%;
+    }
+  }
+
+  .light {
+    background-color: #F8F8F8;
+  }
+
+  .dark {
+    background-color: #262626;
+  }
+
+  button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #d6d6d6;
+    border-radius: 40px;
+    border: 0px;
+  }
+
+  .icon {
+    width: 30px;
+  }
+</style>
+
+<script>
+  function changeTheme() {
+    var currentTheme = localStorage.getItem('theme');
+    let theme;
+    let cvSource;
+    let cssClass;
+    if (currentTheme === 'dark') {
+      theme = "light";
+      cvSource = "https://github.com/asofiasbo/cv/raw/master/CV-light.svg";
+    }
+    else {
+      theme = "dark";
+      cvSource = "https://github.com/asofiasbo/CV/raw/master/CV-dark.svg";
+    }
+    cssClass = " " + theme;
+    document.getElementsByClassName('container')[0].className = "container" + cssClass;
+    document.getElementsByClassName('cv')[0].src = cvSource;
+
+    localStorage.setItem('theme', theme);
+  }
+
+</script>
